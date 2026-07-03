@@ -23,7 +23,8 @@ const students = [
       "Adeyemo Kayode",
       "Olulana Oluwatosin Samuel",
       "Ali-Owosho Jubril",
-      "Tolulope Akinpelu oyerinola"
+      "Tolulope Akinpelu oyerinola",
+      "ADEYEMO KAYODE KIRTANESWARA"
     ],
   },
 
@@ -37,7 +38,8 @@ const students = [
       "Ngweeyi Chinaza Ebenezer",
       "Ndubuisi God's will",
        "Olufemi Ayomikun",
-       "Ayeni Esther"
+       "Ayeni Esther",
+       "Essien Eno-Obong Chizitelu"
     ],
   },
 ];

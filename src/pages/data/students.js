@@ -27,7 +27,8 @@ const students = [
       "Ali-Owosho Jubril",
       "Tolulope Akinpelu oyerinola",
       "ADEYEMO KAYODE KIRTANESWARA",
-      "Adedayo Nathan Akolade"
+      "Adedayo Nathan Akolade",
+      "Eke Vera Esther"
     ],
   },
 

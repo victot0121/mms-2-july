@@ -1,0 +1,36 @@
+import "./styles/styles.css";
+import { Link } from "react-router-dom";
+import projects from "./data/project";
+
+
+const Project = () => {
+
+    return (
+        <div className="container">
+            <h1 className="page-title" style={{display: "flex", textAlign: "center", flexDirection: "column"}}>React  Projects and Group Members</h1>
+
+          
+
+            <div className="courses-container">
+                {projects.map((project) => (
+                    /* Wrap the card in a Link component */
+                   <Link  to={`/project/${project.id}`} key={project.id} style={{ textDecoration: 'none', color: 'inherit' }}>
+                        <div className="course-card">
+                            <h2 className="title">{project.title}</h2>
+                            <h3 className="subtitle">{project.subtitle}</h3>
+                        </div>
+                   </Link>
+                ))}
+            </div>
+
+
+           <div style={{ marginTop: "30px" }}>
+                <Link to="/" style={{ fontWeight: "bold", textTransform: "uppercase", textDecoration: "none", color: "black", textAlign: "end" }}>
+                    ← Back to Home
+                </Link>
+            </div>
+        </div>
+    );
+};
+
+export default Project;

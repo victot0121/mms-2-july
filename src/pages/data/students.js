@@ -10,7 +10,8 @@ const students = [
       "Onyenwe Favour Nmesoma",
       "David Akinwumi",
       "Adekunle Bernice",
-      "Chima maryjane ozioma"
+      "Chima maryjane ozioma",
+      "Odumuyiwa Samuel oluwadamilare"
     ],
   },
 

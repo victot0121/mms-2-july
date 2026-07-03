@@ -9,7 +9,8 @@ const students = [
       "EGWUATU MICHAEL IKECHUCKWU",
       "Onyenwe Favour Nmesoma",
       "David Akinwumi",
-      "Adekunle Bernice"
+      "Adekunle Bernice",
+      "Chima maryjane ozioma"
     ],
   },
 
@@ -39,7 +40,8 @@ const students = [
       "Ndubuisi God's will",
        "Olufemi Ayomikun",
        "Ayeni Esther",
-       "Essien Eno-Obong Chizitelu"
+       "Essien Eno-Obong Chizitelu",
+       "Ndubuisi God's will"
     ],
   },
 ];

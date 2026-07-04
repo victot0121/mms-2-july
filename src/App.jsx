@@ -15,7 +15,6 @@ function App() {
           <Route path="/project/:id" element={<ProjectDetail />} />
           <Route path="/students" element={<StudentsPage />} />
           <Route path="/pythontuesday" element={<Pythontuesday />} />
-          <Route path="*" element={<h1>404 Not Found</h1>} />
         </Routes>
       </Router> 
     </>

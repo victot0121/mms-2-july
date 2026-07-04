@@ -31,7 +31,8 @@ const students = [
       "Tolulope Akinpelu oyerinola",
       "ADEYEMO KAYODE KIRTANESWARA",
       "Adedayo Nathan Akolade",
-      "Eke Vera Esther"
+      "Eke Vera Esther",
+      "Ibeawuchi George Chukwudi"
     ],
   },
 

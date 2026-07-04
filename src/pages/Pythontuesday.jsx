@@ -2,7 +2,7 @@
 
 const Pythontuesday = () => {
   return (
-    <div>Pending</div>
+    <div>Pending project</div>
   )
 }
 

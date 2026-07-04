@@ -21,7 +21,19 @@ const HomePage = () => {
               <h1>{course}</h1>
             </div>
           </Link>
-        ) : (
+        ) :index === 1 ? (
+           <>
+              <Link
+                key={index}
+                to="/pythontuesday"
+                style={{ textDecoration: "none", color: "inherit" }}
+              >
+                <div className="course-card">
+                  <h1>{course}</h1>
+                </div>
+              </Link>
+           </>
+        ):(
           <div
             key={index}
             className="course-card"

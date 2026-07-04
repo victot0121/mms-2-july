@@ -3,6 +3,7 @@ import HomePage from './pages/HomePage'
 import ProjectPage from './pages/Project'
 import StudentsPage from './pages/Students'
 import ProjectDetail from './pages/ProjectDetail'
+import Pythontuesday from './pages/pythontuesday'
 
 function App() {
   return (
@@ -13,6 +14,8 @@ function App() {
           <Route path="/project" element={<ProjectPage />} />
           <Route path="/project/:id" element={<ProjectDetail />} />
           <Route path="/students" element={<StudentsPage />} />
+          <Route path="/pythontuesday" element={<Pythontuesday />} />
+          <Route path="*" element={<h1>404 Not Found</h1>} />
         </Routes>
       </Router> 
     </>

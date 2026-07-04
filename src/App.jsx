@@ -3,7 +3,7 @@ import HomePage from './pages/HomePage'
 import ProjectPage from './pages/Project'
 import StudentsPage from './pages/Students'
 import ProjectDetail from './pages/ProjectDetail'
-import Pythontuesday from './pages/pythontuesday'
+import Pythontuesday from './pages/Pythontuesday'
 
 function App() {
   return (

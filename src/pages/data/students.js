@@ -49,6 +49,7 @@ const students = [
        "Ayeni Esther",
        "Essien Eno-Obong Chizitelu",
        "Olanrewaju Maxwell David", 
+       "Onovo Godspower"
        
     ],
   },

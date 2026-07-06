@@ -7,7 +7,7 @@ import pythonstudents from "./data/pythonprojectlist";
 const Pythontuesday = () => {
   return (
     <div className="container">
-      <h1 className="page-title" style={{ display: "flex", textAlign: "center", flexDirection: "column" }}>Python Tuesday Projects and Group Members</h1>
+      <h1 className="page-title" style={{ display: "flex", textAlign: "center", flexDirection: "column" }}>Python Tuesday Class Projects and Group Members</h1>
 
 
 

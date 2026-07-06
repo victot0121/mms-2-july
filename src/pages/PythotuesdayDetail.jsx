@@ -1,6 +1,7 @@
 import { useParams, Link } from "react-router-dom";
 // We only need the one source of truth that contains both the project and the group
-import projects from "./data/pythonstudents"; 
+import students from "./data/pythonstudents"; 
+import pythonstudents from "./data/pythonprojectlist";
 import "./styles/styles.css";
 
 const renderList = (title, items) => {
@@ -22,13 +23,13 @@ const PythotuesdayDetail = () => {
   const projectIdNum = Number(id);
   
   // Find the project matching the ID
-  const project = projects.find((p) => p.projectId === projectIdNum);
+  const project = pythonstudents.find((p) => p.projectId === projectIdNum);
 
   if (!project) {
     return (
       <div className="container">
         <h2>Project not found</h2>
-        <Link to="/project">← Back to Projects</Link>
+        <Link to="/pythontuesday">← Back to Projects</Link>
       </div>
     );
   }
@@ -58,7 +59,7 @@ const PythotuesdayDetail = () => {
 
       <div style={{ marginTop: "30px" }}>
         <Link
-          to="/project"
+          to="/pythontuesday"
           style={{
             fontWeight: "bold",
             textTransform: "uppercase",

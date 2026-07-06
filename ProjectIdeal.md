@@ -230,3 +230,7 @@ project 3
 *API: Open Trivia DB or custom JSON API for questions* 
 *AI: OpenAI API or free HuggingFace model for 1-sentence explanations* 
 *Deploy: GitHub → Netlify*
+
+
+
+

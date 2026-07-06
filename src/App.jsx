@@ -1,9 +1,9 @@
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import HomePage from './pages/HomePage'
 import ProjectPage from './pages/Project'
-import StudentsPage from './pages/Students'
 import ProjectDetail from './pages/ProjectDetail'
 import Pythontuesday from './pages/Pythontuesday'
+import PythotuesdayDetail from './pages/PythotuesdayDetail'
 
 function App() {
   return (
@@ -13,8 +13,8 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/project" element={<ProjectPage />} />
           <Route path="/project/:id" element={<ProjectDetail />} />
-          <Route path="/students" element={<StudentsPage />} />
           <Route path="/pythontuesday" element={<Pythontuesday />} />
+          <Route path="/pythontuesday/:id" element={<PythotuesdayDetail />} />
         </Routes>
       </Router> 
     </>

@@ -32,7 +32,8 @@ const students = [
       "ADEYEMO KAYODE KIRTANESWARA",
       "Adedayo Nathan Akolade",
       "Eke Vera Esther",
-      "Ibeawuchi George Chukwudi"
+      "Ibeawuchi George Chukwudi",
+      "Nkedishuka Martin"
     ],
   },
 
@@ -49,7 +50,8 @@ const students = [
        "Ayeni Esther",
        "Essien Eno-Obong Chizitelu",
        "Olanrewaju Maxwell David", 
-       "Onovo Godspower"
+       "Onovo Godspower",
+       "Oluwayale Folabo"
        
     ],
   },

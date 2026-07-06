@@ -14,7 +14,8 @@ const students = [
       "David Akinwumi",
       "Adekunle Bernice",
       "Chima maryjane ozioma",
-      "Odumuyiwa Samuel oluwadamilare"
+      "Odumuyiwa Samuel oluwadamilare",
+      "Shokoti oluwafemi"
     ],
   },
 
@@ -33,7 +34,8 @@ const students = [
       "Adedayo Nathan Akolade",
       "Eke Vera Esther",
       "Ibeawuchi George Chukwudi",
-      "Nkedishuka Martin"
+      "Nkedishuka Martin",
+      "OAIKHENA ADESUWA OMOTOYOSI"
     ],
   },
 
@@ -51,7 +53,7 @@ const students = [
        "Essien Eno-Obong Chizitelu",
        "Olanrewaju Maxwell David", 
        "Onovo Godspower",
-       "Oluwayale Folabo"
+       "Oluwayale Folabo",
        
     ],
   },

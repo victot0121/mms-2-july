@@ -2,18 +2,27 @@ import { useParams, Link } from "react-router-dom";
 import projects from "./data/reactnativeproject"; 
 import "./styles/styles.css";
 
-
+// 1. ADD THIS HELPER FUNCTION HERE
+const renderList = (title, items) => {
+  if (!items || items.length === 0) return null;
+  return (
+    <div className="detail-section">
+      <h3>{title}</h3>
+      <ul>
+        {items.map((item, i) => (
+          <li key={i}>{item}</li>
+        ))}
+      </ul>
+    </div>
+  );
+};
 
 const ReactnativeprojectDetail = () => {
   const { id } = useParams();
-
-  // Convert id to a number if your dataset IDs are integers
   const projectIdNum = Number(id);
   
-  // Find the specific project matching the ID
   const project = projects.find((p) => p.id === projectIdNum);
 
-  // Fallback UI if the project ID doesn't exist
   if (!project) {
     return (
       <div className="container">
@@ -28,12 +37,10 @@ const ReactnativeprojectDetail = () => {
       <h1 className="page-title">{project.title}</h1>
       <h3 className="subtitle" style={{ color: "#666", marginBottom: "20px" }}>{project.subtitle}</h3>
 
-      {/* Render description or content if your data structure has it */}
       {project.description && (
         <p className="project-description">{project.description}</p>
       )}
 
-      {/* Example: Displaying group members if structured like your Python dataset */}
       {project.group && project.members && (
         <div className="detail-section group-card" style={{ backgroundColor: "#f4f4f4", padding: "15px", borderRadius: "8px", margin: "20px 0" }}>
           <h3 style={{ margin: "0 0 10px 0" }}>Assigned: {project.group}</h3>
@@ -45,7 +52,17 @@ const ReactnativeprojectDetail = () => {
         </div>
       )}
 
-      {/* Navigation Back Link */}
+      {/* 2. THESE WILL NOW WORK PROPERLY */}
+      {renderList("Modules", project.modules)}
+      {renderList("Technologies", project.technologies)}
+      {renderList("Features", project.features)}
+      {/* Changed label from Python to React Native to match this page */}
+      {renderList("API Endpoints", project.api)}
+      
+      {/* {renderList("React Native Concepts Used", project.reactNativeConcepts || project.pythonConcepts)}
+      {renderList("Bonus Features", project.bonusFeatures)}
+      {renderList("Deliverables", project.deliverables)} */}
+
       <div style={{ marginTop: "30px" }}>
         <Link
           to="/reactnativeproject"
@@ -63,4 +80,4 @@ const ReactnativeprojectDetail = () => {
   )
 }
 
-export default ReactnativeprojectDetail
+export default ReactnativeprojectDetail;

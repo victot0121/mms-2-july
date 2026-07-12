@@ -14,7 +14,7 @@ const Project = () => {
             <Link to="/reactnativeproject" style={{ textDecoration: "none",  hover: { textDecoration: "underline" , color: "blue"} }}>
                 <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: "10px", marginBottom: "20px" }}>
                     <h2 style={{ fontWeight: "bold", textTransform: "uppercase", textDecoration: "none",textAlign: "center" , color: "black"}}>React Native Project Link</h2>
-                    <LuSquareArrowUpRight />
+                    <LuSquareArrowUpRight color="black" size={24}/>
                 </div>
             </Link>
 

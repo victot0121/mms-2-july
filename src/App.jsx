@@ -4,7 +4,7 @@ import ProjectPage from './pages/Project'
 import ProjectDetail from './pages/ProjectDetail'
 import Pythontuesday from './pages/Pythontuesday'
 import PythotuesdayDetail from './pages/PythotuesdayDetail'
-import ReactNativeProject from './pages/reactnativeproject'
+import ReactNativeProject from './pages/Reactnativeproject'
 import ReactnativeprojectDetail from './pages/ReactnativeprojectDetail'
 
 function App() {

@@ -13,9 +13,7 @@ const Pythontuesday = () => {
 
       <div className="courses-container">
         {pythonstudents.map((project) => (
-          /* Wrap the card in a Link component */
-          // <Link to={`/pythontuesday/${project.id}`} key={project.id} style={{ textDecoration: 'none', color: 'inherit' }}>
-          <Link
+           <Link
             to={`/pythontuesday/${project.projectId}`}
             key={project.projectId}
             style={{ textDecoration: "none", color: "inherit" }}

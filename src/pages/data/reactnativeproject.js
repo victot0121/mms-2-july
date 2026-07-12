@@ -16,6 +16,15 @@ const reactnativeprojects = [
       "Express",
       "Any Database"
     ],
+     members: [
+      "Ezomo Samantha",
+      "Denzel Richmond Essien",
+      "EMMANUEL EMEDIONG MICHAEL",
+      "EGWUATU MICHAEL IKECHUCKWU",
+      "Onyenwe Favour Nmesoma",
+      "David Akinwumi",
+     
+    ],
 
     features: [
       "Create Group",
@@ -76,6 +85,18 @@ const reactnativeprojects = [
       "Express",
       "Socket.io (optional)",
       "Any Database"
+    ],
+
+    
+     members: [
+      "Maxwell Okoye",
+      "Daniel Fadiran",
+      "Enikuomehin Tomiwa",
+      "Adeyemo Kayode",
+      "Olulana Oluwatosin Samuel",
+      "Ali-Owosho Jubril",
+      "Tolulope Akinpelu oyerinola",   
+      
     ],
 
     features: [
@@ -141,6 +162,17 @@ const reactnativeprojects = [
       "Socket.io"
     ],
 
+     members: [
+      "Tijani Aliyy Opeyemi",
+      "Chibuzor Collins Ilochi",
+      "Jeje Isaac Oreoluwa",
+      "Ngweeyi Chinaza Ebenezer",
+      "Ndubuisi God's will",
+       "Olufemi Ayomikun",
+       "Ayeni Esther",
+      
+    ],
+
     customerFeatures: [
       "Authentication",
       "Restaurant Browsing",
@@ -203,7 +235,15 @@ const reactnativeprojects = [
       "Any Database",
       "Whisper API / Google Speech-to-Text"
     ],
-
+      members: [
+        "Adekunle Bernice",
+      "Chima maryjane ozioma",
+      "Odumuyiwa Samuel oluwadamilare",
+      "Shokoti oluwafemi",
+      "Ibeawuchi George Chukwudi",
+      "Nkedishuka Martin",
+      "OAIKHENA ADESUWA OMOTOYOSI"
+    ],
     features: [
       "Record Voice Entry",
       "Auto-Transcription",
@@ -262,6 +302,15 @@ const reactnativeprojects = [
       "Express",
       "Any Database",
       "Polling or Socket.io"
+    ],
+      members: [
+        "Essien Eno-Obong Chizitelu",
+       "Olanrewaju Maxwell David", 
+       "Onovo Godspower",
+       "Oluwayale Folabo",
+       "ADEYEMO KAYODE KIRTANESWARA",
+      "Adedayo Nathan Akolade",
+      "Eke Vera Esther",
     ],
 
     features: [

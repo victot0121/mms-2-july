@@ -1,6 +1,7 @@
 import "./styles/styles.css";
 import { Link } from "react-router-dom";
 import projects from "./data/reactnativeproject";
+import students from "./data/reactnativestudents"; 
 
 const ReactNativeProject = () => {
     return (

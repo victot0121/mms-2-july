@@ -1,6 +1,7 @@
 import { useParams, Link } from "react-router-dom";
 import projects from "./data/reactnativeproject"; 
 import "./styles/styles.css";
+import students from './data/reactnativestudents'
 
 // 1. Helper function to safely render arrays of strings
 const renderList = (title, items) => {
@@ -58,7 +59,12 @@ const ReactnativeprojectDetail = () => {
         }}>
           Difficulty: {project.difficulty}
         </span> */}
+        
+
+        {/* members for each project */}
+       
       </div>
+
 
       {/* Project Main Description */}
       {project.description && (
@@ -66,6 +72,19 @@ const ReactnativeprojectDetail = () => {
           {project.description}
         </p>
       )}
+
+       {project.members && (
+          <div style={{ marginTop: "10px", fontSize: "14px",marginLeft: "5px", marginBottom: "20px" }}>
+            <strong style={{fontSize: "25px", fontWeight: "bolder"}}>Project Members:</strong>
+            <ul style={{ margin: "5px 0 0 5px", padding: "0" }}>
+              {project.members.map((member, i) => (
+                <li key={i} style={{ margin: "3px 0" }}>
+                  {member}
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
 
       {/* --- RENDER STRINGS ARRAYS (Using helper function) --- */}
       {renderList("Technologies Used", project.technologies)}

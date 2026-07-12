@@ -7,10 +7,11 @@ const ReactNativeProject = () => {
         <div>
             <h1 className="page-title" style={{ display: "flex", textAlign: "center", flexDirection: "column" }}>React Native Project</h1>
 
+
             <div className="courses-container">
-                 {projects.map((project) => (
-                    /* Wrap the card in a Link component */
-                    <Link to={`/project/${project.id}`} key={project.id} style={{ textDecoration: 'none', color: 'inherit' }}>
+                {projects.map((project) => (
+                    /* FIX: Changed path from /project/${project.id} to /reactnativeproject/${project.id} */
+                    <Link to={`/reactnativeproject/${project.id}`} key={project.id} style={{ textDecoration: 'none', color: 'inherit' }}>
                         <div className="course-card">
                             <h2 className="title">{project.title}</h2>
                             <h3 className="subtitle">{project.subtitle}</h3>
@@ -18,6 +19,7 @@ const ReactNativeProject = () => {
                     </Link>
                 ))}
             </div>
+
             <div style={{ marginTop: "30px" }}>
                 <Link to="/" style={{ fontWeight: "bold", textTransform: "uppercase", textDecoration: "none", color: "black", textAlign: "end" }}>
                     ← Back to Home

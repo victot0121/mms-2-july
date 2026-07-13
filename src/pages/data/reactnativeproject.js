@@ -92,7 +92,7 @@ const reactnativeprojects = [
       "Maxwell Okoye",
       "Daniel Fadiran",
       "Enikuomehin Tomiwa",
-      "Adeyemo Kayode",
+      "Benard Victor",
       "Olulana Oluwatosin Samuel",
       "Ali-Owosho Jubril",
       "Tolulope Akinpelu oyerinola",   

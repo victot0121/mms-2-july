@@ -90,13 +90,12 @@ const reactnativeprojects = [
     
      members: [
       "Maxwell Okoye",
-      "Daniel Fadiran",
       "Enikuomehin Tomiwa",
       "Benard Victor",
       "Olulana Oluwatosin Samuel",
       "Ali-Owosho Jubril",
       "Tolulope Akinpelu oyerinola",   
-      
+        "Daniel Fadiran",
     ],
 
     features: [
@@ -236,7 +235,7 @@ const reactnativeprojects = [
       "Whisper API / Google Speech-to-Text"
     ],
       members: [
-        "Adekunle Bernice",
+      "Adekunle Bernice",
       "Chima maryjane ozioma",
       "Odumuyiwa Samuel oluwadamilare",
       "Shokoti oluwafemi",
@@ -311,6 +310,7 @@ const reactnativeprojects = [
        "ADEYEMO KAYODE KIRTANESWARA",
       "Adedayo Nathan Akolade",
       "Eke Vera Esther",
+     
     ],
 
     features: [
@@ -371,6 +371,9 @@ const reactnativeprojects = [
       "Spring Boot",
       "Any Database",
       "Cloudinary"
+    ],
+     members: [
+       "Daniel Fadiran",
     ],
 
     seekerFeatures: [

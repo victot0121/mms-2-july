@@ -96,6 +96,7 @@ const reactnativeprojects = [
       "Ali-Owosho Jubril",
       "Tolulope Akinpelu oyerinola",   
         "Daniel Fadiran",
+        "Daniel Fadiran",
     ],
 
     features: [
@@ -169,6 +170,7 @@ const reactnativeprojects = [
       "Ndubuisi God's will",
        "Olufemi Ayomikun",
        "Ayeni Esther",
+       "Victoria Ajayi .0"
       
     ],
 
@@ -373,7 +375,7 @@ const reactnativeprojects = [
       "Cloudinary"
     ],
      members: [
-       "Daniel Fadiran",
+       
     ],
 
     seekerFeatures: [

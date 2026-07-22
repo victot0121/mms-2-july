@@ -96,7 +96,7 @@ const reactnativeprojects = [
       "Ali-Owosho Jubril",
       "Tolulope Akinpelu oyerinola",   
         "Daniel Fadiran",
-        "Daniel Fadiran",
+        "oketade Goodness",
     ],
 
     features: [

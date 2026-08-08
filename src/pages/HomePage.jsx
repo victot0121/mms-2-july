@@ -33,7 +33,20 @@ const HomePage = () => {
                 </div>
               </Link>
            </>
-        ):(
+        ):index === 2 ? (
+           <>
+              <Link
+                key={index}
+                to="/pythomonday"
+                style={{ textDecoration: "none", color: "inherit" }}
+              >
+                <div className="course-card">
+                  <h1>{course}</h1>
+                </div>
+              </Link>
+           </>
+        )
+        :(
           <div
             key={index}
             className="course-card"

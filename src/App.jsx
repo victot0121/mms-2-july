@@ -6,6 +6,8 @@ import Pythontuesday from './pages/Pythontuesday'
 import PythotuesdayDetail from './pages/PythotuesdayDetail'
 import ReactNativeProject from './pages/Reactnativeproject'
 import ReactnativeprojectDetail from './pages/ReactnativeprojectDetail'
+import Pythomonday from './pages/Pythomonday'
+import Pythonmondaydetails from './pages/PythomondayDetail'
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
           <Route path="/reactnativeproject/:id" element={<ReactnativeprojectDetail />} />
           <Route path="/pythontuesday" element={<Pythontuesday />} />
           <Route path="/pythontuesday/:id" element={<PythotuesdayDetail />} />
+          <Route path="/pythomonday" element={<Pythomonday />} />
+          <Route path="/pythomonday/:id" element={<Pythonmondaydetails />} />
         </Routes>
       </Router> 
     </>

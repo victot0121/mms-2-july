@@ -13,7 +13,7 @@ const Pythontuesday = () => {
 
       <div className="courses-container">
         {pythonstudents.map((project) => (
-           <Link
+           <Link 
             to={`/pythontuesday/${project.projectId}`}
             key={project.projectId}
             style={{ textDecoration: "none", color: "inherit" }}

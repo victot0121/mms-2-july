@@ -23,6 +23,7 @@ const reactnativeprojects = [
       "EGWUATU MICHAEL IKECHUCKWU",
       "Onyenwe Favour Nmesoma",
       "David Akinwumi",
+      "MAANGA NATHANEL"
      
     ],
 

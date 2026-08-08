@@ -4,9 +4,7 @@ const pythonstudents = [
     projectTitle: "Expense Tracker & Budget Management System",
     group: "Group 1",
     members: [
-      "Okezie Anthony Enyinna",
-      "Owolabi Emmanuel George",
-      "Olajide Oluwatoni",
+      "",
     ],
     description:
       "Develop a command-line Expense Tracker and Budget Management System that enables users to record income and expenses, manage budgets, generate reports, and visualize financial data using Python.",

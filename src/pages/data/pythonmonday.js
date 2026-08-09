@@ -90,7 +90,7 @@ const pythonstudents = [
     projectTitle: "Nigerian Transport Fare & Route Information System",
     group: "Group 2",
     members: [
-      "",
+      "Olasubomi Omosanya",
     ],
     description:
       "Develop a Python-based Transport Fare and Route Information System that allows users to search routes, view estimated transport fares, compare transportation options, report current fares, and analyze transport fare changes across Nigerian locations.",
@@ -177,7 +177,7 @@ const pythonstudents = [
     projectTitle: "Electricity Outage Reporting & Monitoring System",
     group: "Group 3",
     members: [
-      "",
+      "Oluwatunmibi Praise Ayomide",
     ],
     description:
       "Develop a Python-based Electricity Outage Reporting and Monitoring System that allows residents to report power outages, track reported incidents, analyze affected locations, and generate electricity outage reports.",
@@ -261,7 +261,7 @@ const pythonstudents = [
     projectTitle: "Nigerian Job Opportunity Aggregator",
     group: "Group 4",
     members: [
-      "",
+      "GBEDEJI EMMANUEL AYIHAJI",
     ],
     description:
       "Develop a Python-based Job Opportunity Aggregator that collects job vacancies from multiple online sources, organizes them by job title, location, and employment type, and allows users to search and filter available opportunities.",
@@ -350,7 +350,7 @@ const pythonstudents = [
     projectTitle: "Healthcare Facility & Pharmacy Finder",
     group: "Group 5",
     members: [
-      "",
+      "Olanrewaju Maxwell David",
     ],
     description:
       "Develop a Python-based Healthcare Facility and Pharmacy Finder that helps users search for healthcare facilities and pharmacies by location, facility type, services, and availability.",

@@ -2,6 +2,7 @@ import "./styles/styles.css";
 import { Link } from "react-router-dom";
 import pythonstudents from "./data/pythonmonday";
 
+
 const Pythomonday = () => {
     return (
         <div className="container">
@@ -20,6 +21,10 @@ const Pythomonday = () => {
                     </Link>
                 ))}
 
+            </div>
+
+            <div style={{ marginTop: "30px" }}>
+               <Link to="/secondbatch" style={{ fontWeight: "bold", textTransform: "uppercase", color: "black", textAlign: "start" }}> SECOND BATCH PROJECT</Link>
             </div>
 
             <div style={{ marginTop: "30px" }}>

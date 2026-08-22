@@ -8,6 +8,8 @@ import ReactNativeProject from './pages/Reactnativeproject'
 import ReactnativeprojectDetail from './pages/ReactnativeprojectDetail'
 import Pythomonday from './pages/Pythomonday'
 import Pythonmondaydetails from './pages/PythomondayDetail'
+import SecondBatch from "./pages/Pythonsecondbatch"
+import PythonsecondbatchDetails from "./pages/PythonsecondbatchDetails"
 
 function App() {
   return (
@@ -23,6 +25,8 @@ function App() {
           <Route path="/pythontuesday/:id" element={<PythotuesdayDetail />} />
           <Route path="/pythomonday" element={<Pythomonday />} />
           <Route path="/pythomonday/:id" element={<Pythonmondaydetails />} />
+          <Route path="/secondbatch" element={<SecondBatch/>}/>
+          <Route path="/secondbatch/:id" element={<PythonsecondbatchDetails />} />
         </Routes>
       </Router> 
     </>

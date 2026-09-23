@@ -49,6 +49,7 @@ const students = [
     members: [
       
       "Bakara Samayyah",
+      "Erhurhe Harrietta"
      
     ],
     
@@ -66,7 +67,6 @@ const students = [
     projectId: 7,
     group: "Group 7",
     members: [
-      
       "Akinbody emmanuel",
       "Adaramobu Renhard",
     ],

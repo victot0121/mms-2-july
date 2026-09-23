@@ -48,9 +48,8 @@ const students = [
     group: "Group 5",
     members: [
       
-      "",
-      "",
-      ""
+      "Bakara Samayyah",
+     
     ],
     
   },
@@ -59,9 +58,7 @@ const students = [
     group: "Group 6",
     members: [
       
-      "",
-      "",
-      ""
+     "Bakara Abdusalay",
     ],
     
   },

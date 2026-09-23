@@ -39,9 +39,7 @@ const students = [
     group: "Group 4",
     members: [
       
-      "modelbelu Emmanuella",
-      "Ajani Baliqees",
-      "Abdlsalam Adam"
+      ""
     ],
     
   },
@@ -70,6 +68,182 @@ const students = [
   {
     projectId: 7,
     group: "Group 7",
+    members: [
+      
+      "",
+      "",
+      ""
+    ],
+    
+  },
+  {
+    projectId: 8,
+    group: "Group 9",
+    members: [
+      
+      "",
+      "",
+      ""
+    ],
+    
+  },
+  {
+    projectId: 10,
+    group: "Group 10",
+    members: [
+      
+      "",
+      "",
+      ""
+    ],
+    
+  },
+  {
+    projectId: 11,
+    group: "Group 11",
+    members: [
+      
+      "",
+      "",
+      ""
+    ],
+    
+  },
+  {
+    projectId: 12,
+    group: "Group 12",
+    members: [
+      
+      "",
+      "",
+      ""
+    ],
+    
+  },
+  {
+    projectId: 13,
+    group: "Group 13",
+    members: [
+      
+      "",
+      "",
+      ""
+    ],
+    
+  },
+  {
+    projectId: 14,
+    group: "Group 14",
+    members: [
+      
+      "",
+      "",
+      ""
+    ],
+    
+  },
+  {
+    projectId: 15,
+    group: "Group 15",
+    members: [
+      
+      "",
+      "",
+      ""
+    ],
+    
+  },
+  {
+    projectId: 16,
+    group: "Group 16",
+    members: [
+      
+      "",
+      "",
+      ""
+    ],
+    
+  },
+  {
+    projectId: 17,
+    group: "Group 17",
+    members: [
+      
+      "",
+      "",
+      ""
+    ],
+    
+  },
+  {
+    projectId: 18,
+    group: "Group 18",
+    members: [
+      
+      "",
+      "",
+      ""
+    ],
+    
+  },
+  {
+    projectId: 19,
+    group: "Group 19",
+    members: [
+      
+     "modelbelu Emmanuella",
+      "Ajani Baliqees",
+      "Abdlsalam Adam"
+    ],
+    
+  },
+  {
+    projectId: 20,
+    group: "Group 20",
+    members: [
+      
+      "",
+      "",
+      ""
+    ],
+    
+  },
+  {
+    projectId: 21,
+    group: "Group 21",
+    members: [
+      
+      "",
+      "",
+      ""
+    ],
+    
+  },
+  {
+    projectId: 22,
+    group: "Group 22",
+    members: [
+      
+      "",
+      "",
+      ""
+    ],
+    
+  },
+  {
+    projectId: 23,
+    group: "Group 23",
+    members: [
+      
+      "",
+      "",
+      ""
+    ],
+    
+  },
+  {
+    projectId: 24,
+    group: "Group 24",
     members: [
       
       "",

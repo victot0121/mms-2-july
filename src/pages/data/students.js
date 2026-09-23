@@ -67,9 +67,8 @@ const students = [
     group: "Group 7",
     members: [
       
-      "",
-      "",
-      ""
+      "Akinbody emmanuel",
+      "Adaramobu Renhard",
     ],
     
   },

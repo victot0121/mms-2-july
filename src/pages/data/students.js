@@ -114,7 +114,7 @@ const students = [
   {
     projectId: 24,
     group: "Group 24",
-    members: ["osa uadia", "onjeabor vanessa ", ""],
+    members: ["osa uadia", "onjeabor vanessa ", "Samuel Ayodele Ayomide"],
   },
   
  
